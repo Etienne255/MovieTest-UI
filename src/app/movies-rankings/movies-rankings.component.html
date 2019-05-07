@@ -1,0 +1,5 @@
+<h1>Movie rankings</h1>
+
+<mat-list role="list">
+  <mat-list-item role="listitem" *ngFor="let item of movieStats">Movie ranking: {{item.rating}} count: {{item.totalRatings}}</mat-list-item>
+</mat-list>
